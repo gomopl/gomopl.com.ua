@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Молодіжна організація</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <!-- Іконка для вкладки -->
+  <link rel="icon" href="img/favicon.png">
+</head>
+<body>
+  <nav>
+    <div class="container nav-content">
+      <div class="logo">Молодіжна<br>організація</div>
+      <ul>
+        <li><a href="#hero">Головна</a></li>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#team">Наша команда</a></li>
+        <li><a href="#events">Наші заходи</a></li>
+        <li><a href="#publications">Публікації</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="hero" class="fade-in">
+    <div class="container hero-content">
+      <h1>Молодіжна організація</h1>
+      <p>Разом творимо майбутнє!</p>
+      <a href="#about" class="btn btn-hero">Дізнатись більше</a>
+    </div>
+    <div class="hero-bg"></div>
+  </section>
+
+  <section id="about" class="fade-in">
+    <div class="container">
+      <h2>Про нас</h2>
+      <div class="about-flex">
+        <div class="about-gallery">
+          <img src="img/about1.jpg" alt="Про нас 1" class="gallery-img" tabindex="0">
+          <img src="img/about2.jpg" alt="Про нас 2" class="gallery-img" tabindex="0">
+          <img src="img/about3.jpg" alt="Про нас 3" class="gallery-img" tabindex="0">
+        </div>
+        <div class="about-text">
+          <p>
+            Ми — команда активної молоді, яка організовує культурні, освітні та наукові заходи.
+            <br>Наша мета — створити простір для розвитку, спілкування та реалізації ідей!
+          </p>
+          <ul>
+            <li>Підтримуємо молоді ініціативи</li>
+            <li>Проводимо конференції, тренінги, фестивалі</li>
+            <li>Залучаємо до науки та інновацій</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Lightbox popup -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" src="#" alt="Фото">
+    </div>
+  </section>
+
+  <section id="team" class="fade-in">
+    <div class="container">
+      <h2>Наша команда</h2>
+      <div class="team-grid">
+        <div class="team-member card">
+          <div class="avatar-wrap">
+            <img src="img/team1.jpg" alt="Іван Іванов" class="avatar">
+          </div>
+          <h3>Іван Іванов</h3>
+          <p class="role">Голова організації</p>
+          <p class="bio">Провідник молодіжних ініціатив. Відкритий до ідей, завжди у русі!</p>
+        </div>
+        <div class="team-member card">
+          <div class="avatar-wrap">
+            <img src="img/team2.jpg" alt="Олена Петренко" class="avatar">
+          </div>
+          <h3>Олена Петренко</h3>
+          <p class="role">PR-менеджер</p>
+          <p class="bio">Відповідає за імідж та комунікації. Любить креатив та фото.</p>
+        </div>
+        <div class="team-member card">
+          <div class="avatar-wrap">
+            <img src="img/team3.jpg" alt="Василь Коваль" class="avatar">
+          </div>
+          <h3>Василь Коваль</h3>
+          <p class="role">Координатор проектів</p>
+          <p class="bio">Організовує події та стежить за деталями. Має досвід у менеджменті.</p>
+        </div>
+        <!-- Додай ще членів команди -->
+      </div>
+    </div>
+  </section>
+
+  <section id="events" class="fade-in">
+    <div class="container">
+      <h2>Наші заходи</h2>
+      <div class="events-list">
+        <div class="event card">
+          <img src="img/event1.jpg" alt="Молодіжний форум 2024">
+          <div>
+            <h3>Молодіжний форум 2024</h3>
+            <p class="event-date">25 травня 2024</p>
+            <p>Велика подія для активної молоді міста!</p>
+          </div>
+        </div>
+        <div class="event card">
+          <img src="img/event2.jpg" alt="Тренінг 'Лідерство та комунікації'">
+          <div>
+            <h3>Тренінг “Лідерство та комунікації”</h3>
+            <p class="event-date">10 червня 2024</p>
+            <p>Практичний тренінг для майбутніх лідерів.</p>
+          </div>
+        </div>
+        <!-- Додай ще заходи -->
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="fade-in">
+    <div class="container">
+      <h2>Архів наукових публікацій</h2>
+      <ul class="publications-list">
+        <li class="card">
+          <b>Збірник конференції 2024</b><br>
+          <a href="pdf/zbirnyk2024.pdf" target="_blank">Завантажити PDF</a>
+          <div class="pdf-viewer">
+            <iframe src="pdf/zbirnyk2024.pdf" width="100%" height="400"></iframe>
+          </div>
+        </li>
+        <li class="card">
+          <b>Збірник конференції 2023</b><br>
+          <a href="pdf/zbirnyk2023.pdf" target="_blank">Завантажити PDF</a>
+          <div class="pdf-viewer">
+            <iframe src="pdf/zbirnyk2023.pdf" width="100%" height="400"></iframe>
+          </div>
+        </li>
+        <!-- Додай ще публікації -->
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacts" class="fade-in">
+    <div class="container">
+      <h2>Контакти</h2>
+      <div class="contacts-flex">
+        <div>
+          <p><b>Email:</b> example@gmail.com</p>
+          <p><b>Телефон:</b> +380 99 123 4567</p>
+          <p>
+            <b>Соцмережі:</b>
+            <a href="#">Facebook</a>,
+            <a href="#">Instagram</a>
+          </p>
+        </div>
+        <form class="contact-form" autocomplete="off">
+          <input type="text" placeholder="Ваше ім'я" required>
+          <input type="email" placeholder="Ваш email" required>
+          <textarea placeholder="Ваше повідомлення" required></textarea>
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Молодіжна організація. Всі права захищено.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
